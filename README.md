@@ -35,10 +35,15 @@ agente de IA configurado para:
 
 01-nome-do-projeto/
 ├── subject.md       → enunciado recebido
+│
 ├── solution.py       → código final
+│
 ├── tests/             → moulinette
+│
 ├── EVALUATION.md      → correção por pares (perguntas e defesas)
+│
 └── NOTES.md           → processo de pesquisa e raciocínio (rascunho)
+```
 
 ## Projetos
 
