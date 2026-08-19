@@ -34,16 +34,11 @@ agente de IA configurado para:
 ## Estrutura de cada projeto
 
 01-nome-do-projeto/
-├── subject.md       → enunciado recebido
-│
-├── solution.py       → código final
-│
-├── tests/             → moulinette
-│
-├── EVALUATION.md      → correção por pares (perguntas e defesas)
-│
-└── NOTES.md           → processo de pesquisa e raciocínio (rascunho)
-```
+├── subject.md       # Enunciado recebido
+├── solution.py      # Código final desenvolvido
+├── tests/           # Testes automatizados (moulinette)
+├── EVALUATION.md    # Correção por pares (perguntas e defesas)
+└── NOTES.md         # Processo de pesquisa e raciocínio (rascunho)
 
 ## Projetos
 
