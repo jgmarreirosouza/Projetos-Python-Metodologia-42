@@ -32,14 +32,14 @@ agente de IA configurado para:
 - cobrar um padrão de código (norm) definido no início
 
 ## Estrutura de cada projeto
-
+```text
 01-nome-do-projeto/
 ├── subject.md       # Enunciado recebido
 ├── solution.py      # Código final desenvolvido
 ├── tests/           # Testes automatizados (moulinette)
 ├── EVALUATION.md    # Correção por pares (perguntas e defesas)
 └── NOTES.md         # Processo de pesquisa e raciocínio (rascunho)
-
+```
 ## Projetos
 
 | # | Projeto | Conceito principal | Status |
