@@ -1,6 +1,9 @@
 import sys
 
 args = sys.argv
+if len(args) <= 1:
+    print('Argumentos Insuficientes!')
+    sys.exit()
 print(args)
 senha = args[1]
 
@@ -44,7 +47,7 @@ def acha_erro(passw):
     for caracter in passw:
         if caracter not in maiusculas and caracter not in minusculas and caracter not in numeros and caracter not in especiais:
             print("Senha contém caracteres inválidos!!")
-            exit(1)
+            sys.exit()
 
 acha_erro(senha)
 if len(senha) == 0:
