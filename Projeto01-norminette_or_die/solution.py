@@ -21,7 +21,7 @@ def acha_letras(passw: str, lista_caracteres: list) -> int:
             contador_letras += 1
     return(contador_letras)
 
-def acha_erro(passw):
+def acha_erro(passw:str) -> None:
     for caracter in passw:
         if caracter not in maiusculas and caracter not in minusculas and caracter not in numeros and caracter not in especiais:
             print("Senha contém caracteres inválidos!!")
@@ -34,7 +34,7 @@ elif len(senha) >= 12 and acha_letras(senha, maiusculas) >= 3 and acha_letras(se
     print('Senha Muito Forte!')
 elif len(senha) >= 9 and acha_letras(senha, maiusculas) >= 2 and acha_letras(senha, minusculas) >= 2 and acha_letras(senha, numeros) >= 2 and acha_letras(senha, especiais) >= 2:
     print('Senha Forte!')
-elif len(senha) < 7:
+elif len(senha) < 7 or acha_letras(senha, maiusculas) < 1 or acha_letras(senha, minusculas) < 1 or acha_letras(senha, numeros) < 1 or acha_letras(senha, especiais) < 1:
     print('Senha Fraca!') 
 elif len(senha) < 9 or acha_letras(senha, maiusculas) < 2 or acha_letras(senha, minusculas) < 2 or acha_letras(senha, numeros) < 2 or acha_letras(senha, especiais) < 2:
     print('Senha Média!')
