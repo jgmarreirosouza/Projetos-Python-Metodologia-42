@@ -4,7 +4,6 @@ args = sys.argv
 if len(args) <= 1:
     print('Argumentos Insuficientes!')
     sys.exit()
-print(args)
 senha = args[1]
 
 maiusculas = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 
@@ -15,6 +14,15 @@ numeros = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
 especiais = ['!', '@', '#', '$', '%', '^', '&', '*', '(', ')', '-', '_', '=', '+', '[', ']', '{', '}',
              '|', ';', ':', '"', "'", ',', '.', '<', '>', '/', '?', '~', '`']
 
+def acha_letras(passw: str, lista_caracteres: list) -> int: 
+    contador_letras = 0
+    for caracter in passw:
+        if caracter in lista_caracteres:
+            contador_letras += 1
+    return(contador_letras)
+
+print(acha_letras(senha, maiusculas))
+'''
 def acha_maiusculas(passw):
     contador_maiusculas = 0
     for caracter in passw:
@@ -60,6 +68,6 @@ elif len(senha) < 7 or acha_maiusculas(senha) < 1 or acha_minusculas(senha) < 1 
     print('Senha Fraca!') 
 elif len(senha) < 9 or acha_maiusculas(senha) < 2 or acha_minusculas(senha) < 2 or acha_numeros(senha) < 2 or acha_especiais(senha) < 2:
     print('Senha Média!')
-
+'''
 
 
