@@ -26,3 +26,57 @@ Critérios que eu decidi para classificar as senhas:
 * Senha forte: 9 ou mais caracteres com pelo menos 2 caracteres de cada "categoria"
 * Senha muito forte: 12 ou mais caracteres com pelo menos 3 caracteres de cada "categoria"
 
+
+
+Após primeira verificação no sistema, o agente deixou claro que essa minha 1ª ideia apesar de funcional, não atendia aos requisitos que ele me pediu, pois as funções ficaram muito repetitivas. Dessa maneira desenvolvi uma segunda linha de raciocínio.
+
+
+
+2ª IDEIA:
+Criar apenas uma função "coringa" que recebe a ***senha*** e a ***lista desejada***, retornando a quantidade de caracteres dessa lista específica. Dessa maneira deixo o código muito mais limpo e fluido.
+
+
+
+Com essa segunda ideia, o agente aceitou meu programa!
+
+
+
+
+
+### Aprendizados:
+
+Tiveram algumas ferramentas e sintaxes que tive que ir atrás por conta própria para desenvolver esse programa, e aqui estão meus aprendizados sobre elas:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
