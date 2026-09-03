@@ -64,7 +64,7 @@ Criar apenas uma função "coringa" que recebe a ***senha*** e a ***lista deseja
 
 
 
-* ##### **Função em python:**
+* #### **Função em python:**
 
 Aprendi de maneira definitiva como funciona uma função em python.
 
@@ -76,11 +76,11 @@ Uma função é um bloco de código nomeado que realiza uma tarefa específica. 
 
 Ex: *def soma(a, b):*
 
-&#x09;*return a + b*
+     *return a + b*
 
 
 
-utilizamos o *def* para criar a função, em seguida damos um nome à ela.
+Utilizamos o *def* para criar a função, em seguida damos um nome à ela.
 
 Na frente colocamos os parâmetros que utilizaremos dentro dessa função ("os protagonistas"), em seguida dos dois pontos para indicar que iniciaremos o código da função.
 
@@ -110,7 +110,7 @@ Agora a variável *resultado* tem o valor da tarefa executada pela função, nes
 
 
 
-* ##### **Regras básicas para criar uma senha segura:**
+* #### **Regras básicas para criar uma senha segura:**
 
 Para criar os critérios de segurança das senhas, tive que aprender alguns preceitos recomendados para que a senha seja segura. Aqui estão alguns deles:
 
@@ -126,7 +126,7 @@ Para criar os critérios de segurança das senhas, tive que aprender alguns prec
 
 
 
-* ##### sys.argv:
+* #### sys.argv:
 
 O sistema pede para receber a senha como argumento, e não como um input() fixo. Fui atrás de maneiras de como fazer isso e descobri o sys.argv
 
@@ -168,7 +168,7 @@ senha = sys.argv\[1] -> Agora a variável guarda o valor do argumento digitado p
 
 
 
-* ##### Type Hints:
+* #### Type Hints:
 
 Os type hints são uma ferramenta que foi introduzida ao python para auxiliar desenvolvedores indicar explicitamente os tipos de dados de variáveis e dos retornos das funções. O uso não é obrigatório, mas elas podem ser extremamente úteis para quem está lendo o código.
 
@@ -190,7 +190,7 @@ Para funções, podemos indicar tanto o tipo dos parâmetros quanto o tipo de re
 
 *def somar(a: int, b: int) -> int:*
 
-&#x20;   *return a + b*
+     *return a + b*
 
 
 
